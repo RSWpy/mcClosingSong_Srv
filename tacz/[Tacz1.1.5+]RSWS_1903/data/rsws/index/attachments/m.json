@@ -1,0 +1,8 @@
+{
+  "name": "rsws.attachment.m.name",
+  "display": "rsws:m_display",
+  "data": "rsws:m_data",
+  "desc": "rsws.attachment.m.desc",
+  "type": "stock",
+  "sort": 3
+}

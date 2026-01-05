@@ -1,0 +1,7 @@
+{
+  "slot": "rsws:attachment/slot/yz",
+  "sounds": {
+    "install": "rsws:sd/az1",
+    "uninstall": "rsws:sd/xz1"
+  }
+}

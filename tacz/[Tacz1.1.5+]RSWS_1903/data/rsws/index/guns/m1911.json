@@ -1,0 +1,7 @@
+{
+  "name": "rsws.gun.1911.name",
+  "display": "rsws:m1911_display",
+  "data": "rsws:m1911_data",
+  "tooltip": "rsws.gun.1911.desc",
+  "type": "pistol"
+}

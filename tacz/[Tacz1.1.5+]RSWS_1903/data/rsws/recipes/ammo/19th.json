@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 32
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "rsws:19th",
+    "count": 5
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

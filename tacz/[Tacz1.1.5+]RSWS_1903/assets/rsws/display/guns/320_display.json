@@ -1,0 +1,104 @@
+{
+  "model": "rsws:gun/320_geo",
+  "texture": "rsws:gun/uv/320",
+  "lod": {
+    "model": "rsws:gun/lod/320",
+    "texture": "rsws:gun/uv/320"
+  },
+  "hud": "rsws:gun/hud/320_hud",
+  "slot": "rsws:gun/slot/320",
+  "ammo_count_style": "normal",
+  "animation": "rsws:320",
+  // 显示准星，默认情况下瞄准会隐藏准星，将其设置为 true 则不会
+  "show_crosshair": false,
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "rsws:flash/common_muzzle_flash",
+    "scale": 0.5
+  },
+  "iron_zoom": 2,
+  "zoom_model_fov": 20,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [-10.0, -200, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "ammo": {
+    // 曳光弹颜色，没有则为 #FFFFFF，没有此字段时，会调用 ammo 的相关字段
+    // 严格遵循 RGB 颜色代码
+    "tracer_color": "#cf5920"
+    // 粒子效果，部分参数和原版指令完全一致，具体可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E5%91%BD%E4%BB%A4/particle
+    // 没有此字段时，会调用 ammo 的相关字段
+    //    "particle": {
+    //      // 名称，具体可选粒子可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E7%B2%92%E5%AD%90
+    //      "name": "scrape",
+    //      // 生成的区域，默认为 0 0 0
+    //      "delta": [
+    //        0,
+    //        0,
+    //        0
+    //      ],
+    //      // 速度，默认为0，必须至少为 0
+    //      "speed": 2,
+    //      // 粒子存在时间，单位 tick，默认为 20 tick
+    //      "life_time": 20,
+    //      // 粒子数量，当子弹速度过快时，可以增大此数量，能够填满子弹路径的空隙
+    //      "count": 20
+    //    }
+  },
+  "sounds": {
+    "shoot": "tacz:p320/p320_shoot",
+    "shoot_3p": "tacz:p320/p320_shoot_3p",
+    "reload_empty": "rsws:ak47/ak47_reload_empty",
+    "reload_tactical": "rsws:ak47/ak47_reload_tactical",
+    "inspect": "rsws:ak47/ak47_inspect",
+    "inspect_empty": "rsws:ak47/ak47_inspect_empty",
+    "draw": "rsws:ak47/ak47_draw",
+    "put_away": "rsws:ak47/ak47_put_away",
+    "silence": "rsws:ak47/ak47_silence",
+    "silence_3p": "rsws:ak47/ak47_silence_3p",
+    "kill": "rsws:kill",
+    "melee_push": "rsws:melee_stock/melee_stock_01",
+    "melee_stock": "rsws:melee_stock/melee_stock_03"
+  },
+  "text_show": {
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "ammo_count_text_show_pos": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.2,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#79daff",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  },
+  "offhand_show": {
+    "pos": [0, 19, 4],
+    "rotate": [0, 180, 45],
+    "scale": [1.1, 1.1, 0.75]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [0, 19, 3],
+      "rotate": [-180, 0, 120],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

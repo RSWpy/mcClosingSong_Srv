@@ -1,0 +1,7 @@
+{
+  "slot": "rsws:attachment/slot/xo16",
+  "sounds": {
+    "install": "rsws:sd/az",
+    "uninstall": "rsws:sd/xz"
+  }
+}

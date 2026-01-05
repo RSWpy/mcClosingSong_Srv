@@ -1,0 +1,13 @@
+{
+  "weight": 0.5,
+  "explosion": {
+    "explode": false
+  },
+  "damage": {
+    "multiplier":0.5
+  },
+  "head_shot":{
+    "multiplier": 3.5
+  },
+  "extended_mag_level": 0
+}

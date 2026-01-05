@@ -1,0 +1,10 @@
+{
+  "weight": 0.5,
+  "explosion": {
+    "explode": false
+  },
+  "rpm": {
+    "multiplier":1.1
+  },
+  "extended_mag_level": 0
+}

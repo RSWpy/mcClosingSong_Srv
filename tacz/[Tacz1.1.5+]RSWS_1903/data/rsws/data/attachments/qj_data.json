@@ -1,0 +1,16 @@
+{
+  "weight": -0.25,
+  "explosion": {
+    "explode": false
+  },
+  "rpm": {
+    "multiplier":1.15
+  },
+  "damage": {
+    "multiplier": 0.92
+  },
+  "inaccuracy": {
+    "multiplier": 1.2
+  },
+  "extended_mag_level": 0
+}

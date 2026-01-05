@@ -1,0 +1,7 @@
+{
+  "name": "tacz.gun.noa.name",
+  "display": "rsws:noab_display",
+  "data": "rsws:noab",
+  "tooltip": "rsws.gun.noab.desc",
+  "type": "sniper"
+}

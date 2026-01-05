@@ -1,0 +1,8 @@
+{
+  "name": "rsws.attachment.ky.name",
+  "display": "rsws:ky_display",
+  "data": "rsws:ky_data",
+  "desc": "rsws.attachment.ky.desc",
+  "type": "extended_mag",
+  "sort": 2
+}

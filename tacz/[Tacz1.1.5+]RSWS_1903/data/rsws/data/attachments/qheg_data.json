@@ -1,0 +1,13 @@
+{
+  "weight": 0.5,
+  "explosion": {
+    "explode": false
+  },
+  "damage": {
+    "multiplier": 1.5
+  },
+  "ammo_speed": {
+    "multiplier": 1.5
+  },
+  "extended_mag_level": 0
+}

@@ -1,0 +1,80 @@
+{
+  "model": "rsws:gun/br_geo",
+  "texture": "rsws:gun/uv/br",
+  "hud": "rsws:gun/hud/br_hud",
+  "lod": {
+    "model": "rsws:gun/br_geo",
+    "texture": "rsws:gun/uv/br"
+  },
+  "slot": "rsws:gun/slot/br",
+  "animation": "rsws:br",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1.2
+  },
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 30,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "ammo": {
+    // 曳光弹颜色，没有则为 #FFFFFF，没有此字段时，会调用 ammo 的相关字段
+    // 严格遵循 RGB 颜色代码
+    "tracer_color": "#ffeb6f"
+    // 粒子效果，部分参数和原版指令完全一致，具体可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E5%91%BD%E4%BB%A4/particle
+    // 没有此字段时，会调用 ammo 的相关字段
+    //    "particle": {
+    //      // 名称，具体可选粒子可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E7%B2%92%E5%AD%90
+    //      "name": "scrape",
+    //      // 生成的区域，默认为 0 0 0
+    //      "delta": [
+    //        0,
+    //        0,
+    //        0
+    //      ],
+    //      // 速度，默认为0，必须至少为 0
+    //      "speed": 2,
+    //      // 粒子存在时间，单位 tick，默认为 20 tick
+    //      "life_time": 0,
+    //      // 粒子数量，当子弹速度过快时，可以增大此数量，能够填满子弹路径的空隙
+    //      "count": 20
+    //    }
+  },
+  "sounds": {
+    "shoot": "rsws:br/br_shoot",
+    "shoot_3p": "tacz:m249/m249_shoot_3p",
+    "inspect": "rsws:uzi/uzi_inspect",
+    "inspect_empty": "rsws:uzi/uzi_inspect_empty",
+    "draw": "tacz:aug/aug_draw",
+    "put_away": "tacz:aug/aug_put_away",
+    "silence": "rsws:uzi/uzi_silence",
+    "silence_3p": "rsws:uzi/uzi_silence_3p",
+    "melee_push": "tacz:melee_stock/melee_stock_03",
+    "melee_stock": "tacz:melee_stock/melee_stock_02"
+  },
+  "offhand_show": {
+    "pos": [1, 20, 4],
+    "rotate": [0, 0, 45],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [1, 16, -2],
+    "rotate": [0, 0, 20],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "rsws.gun.mpx.name",
+  "display": "rsws:mpx_display",
+  "data": "rsws:mpx_data",
+  "tooltip": "rsws.gun.mpx.desc",
+  "type": "smg"
+}

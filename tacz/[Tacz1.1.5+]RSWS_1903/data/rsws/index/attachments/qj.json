@@ -1,0 +1,8 @@
+{
+  "name": "rsws.attachment.qj.name",
+  "display": "rsws:qj_display",
+  "data": "rsws:qj_data",
+  "desc": "rsws.attachment.qj.desc",
+  "type": "extended_mag",
+  "sort": 6
+}

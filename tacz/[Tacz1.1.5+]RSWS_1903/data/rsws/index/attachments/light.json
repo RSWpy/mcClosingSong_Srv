@@ -1,0 +1,7 @@
+{
+  "name": "rsws.attachment.light.name",
+  "display": "rsws:light_display",
+  "data": "rsws:light_data",
+  "desc": "rsws.attachment.light.desc",
+  "type": "stock"
+}

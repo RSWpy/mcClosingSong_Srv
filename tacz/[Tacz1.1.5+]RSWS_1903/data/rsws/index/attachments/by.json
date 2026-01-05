@@ -1,0 +1,8 @@
+{
+  "name": "rsws.attachment.by.name",
+  "display": "rsws:by_display",
+  "data": "rsws:by_data",
+  "desc": "tacz.attachment.by.desc",
+  "type": "extended_mag",
+  "sort": 1
+}

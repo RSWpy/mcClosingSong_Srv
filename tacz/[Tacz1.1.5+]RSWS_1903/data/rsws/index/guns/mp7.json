@@ -1,0 +1,7 @@
+{
+  "name": "rsws.gun.mp7.name",
+  "display": "rsws:uzi_display",
+  "data": "rsws:uzi_data",
+  "tooltip": "rsws.gun.mp7.desc",
+  "type": "smg"
+}

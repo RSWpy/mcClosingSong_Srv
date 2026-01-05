@@ -1,0 +1,7 @@
+{
+  "name": "rsws.gun.lc.name",
+  "display": "rsws:lc_display",
+  "data": "rsws:lc_data",
+  "tooltip": "rsws.gun.lc.desc",
+  "type": "smg"
+}

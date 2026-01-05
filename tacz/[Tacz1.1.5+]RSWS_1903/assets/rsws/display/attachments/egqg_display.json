@@ -1,0 +1,13 @@
+{
+  "slot": "rsws:attachment/slot/egqg",
+  // 配件的默认模型，不可为空
+  "model": "rsws:attachment/egqg",
+  // 配件默认模型使用的材质，不可为空
+  "texture": "rsws:gun/uv/eg",
+  // 只有 瞄具 配件需要设置这个属性，表示瞄具的放大倍率。
+  // 玩家可以在数组设置的几个倍率之间切换
+  "sounds": {
+    "install": "rsws:sd/az1",
+    "uninstall": "rsws:sd/xz1"
+  }
+}

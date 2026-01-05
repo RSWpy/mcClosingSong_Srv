@@ -1,0 +1,7 @@
+{
+  "slot": "rsws:attachment/slot/201mg",
+  "sounds": {
+    "install": "rsws:sd/az",
+    "uninstall": "rsws:sd/xz"
+  }
+}

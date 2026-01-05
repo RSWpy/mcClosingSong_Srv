@@ -1,0 +1,7 @@
+{
+  "name": "rsws.attachment.mpxs.name",
+  "display": "rsws:mpxs_display",
+  "data": "rsws:mpxs_data",
+  "type": "stock",
+  "sort": 5
+}

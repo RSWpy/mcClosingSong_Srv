@@ -1,0 +1,8 @@
+{
+  "name": "rsws.gun.mg42.name",
+  "display": "rsws:m249_display",
+  "data": "rsws:m249_data",
+  "tooltip": "rsws.gun.mg42.desc",
+  "type": "mg",
+  "sort": 2
+}

@@ -1,0 +1,7 @@
+{
+  "name": "rsws.gun.m26.name",
+  "display": "rsws:m26_display",
+  "data": "rsws:m26_data",
+  "tooltip": "rsws.gun.m26.desc",
+  "type": "mg"
+}

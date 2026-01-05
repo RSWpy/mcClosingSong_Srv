@@ -1,0 +1,54 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "aktlin",
+      "uniqueId": "00000000-0000-3006-998f-555b141a6dbf"
+    },
+    "time": 1744607540267,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/qEbIW4rumI"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "aktlin",
+      "uniqueId": "00000000-0000-3006-998f-555b141a6dbf"
+    },
+    "time": 1744607488938,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ZMdfv3HE5T"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "aktlin",
+      "uniqueId": "00000000-0000-3006-998f-555b141a6dbf"
+    },
+    "time": 1744606636725,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jJKO9x9Aux"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "aktlin",
+      "uniqueId": "00000000-0000-3006-998f-555b141a6dbf"
+    },
+    "time": 1744605665430,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/LR9XdxI4NF"
+    }
+  }
+]

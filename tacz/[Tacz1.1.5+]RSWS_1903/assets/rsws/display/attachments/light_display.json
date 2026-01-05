@@ -1,0 +1,10 @@
+{
+  "slot": "rsws:attachment/slot/light",
+  "model": "rsws:attachment/light",
+  "texture": "rsws:attachment/uv/light",
+  "adapter": "ar_stock_adapter",
+  "sounds": {
+    "install": "rsws:sd/az",
+    "uninstall": "rsws:sd/xz"
+  }
+}

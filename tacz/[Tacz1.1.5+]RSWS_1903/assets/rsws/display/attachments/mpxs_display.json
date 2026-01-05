@@ -1,0 +1,9 @@
+{
+  "slot": "rsws:attachment/slot/mpxs",
+  "model": "rsws:attachment/mpxs",
+  "texture": "rsws:attachment/uv/mpx",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

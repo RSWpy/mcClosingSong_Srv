@@ -1,0 +1,102 @@
+{
+  "model": "rsws:gun/noac",
+  "texture": "rsws:gun/uv/noab",
+  "lod": {
+    "model": "rsws:gun/lod/noac",
+    "texture": "rsws:gun/uv/noab"
+  },
+  "hud": "rsws:gun/hud/noac_hud",
+  "slot": "rsws:gun/slot/noac",
+  "ammo_count_style": "percent",
+  "animation": "rsws:noac",
+  // 显示准星，默认情况下瞄准会隐藏准星，将其设置为 true 则不会
+  "show_crosshair": false,
+  "use_default_animation": "pistol",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "rsws:flash/common_muzzle_flash",
+    "scale": 4.0
+  },
+  "iron_zoom": 6,
+  "zoom_model_fov": 8,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [-10.0, -200, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "ammo": {
+    // 曳光弹颜色，没有则为 #FFFFFF，没有此字段时，会调用 ammo 的相关字段
+    // 严格遵循 RGB 颜色代码
+    "tracer_color": "#79daff"
+    // 粒子效果，部分参数和原版指令完全一致，具体可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E5%91%BD%E4%BB%A4/particle
+    // 没有此字段时，会调用 ammo 的相关字段
+    //    "particle": {
+    //      // 名称，具体可选粒子可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E7%B2%92%E5%AD%90
+    //      "name": "scrape",
+    //      // 生成的区域，默认为 0 0 0
+    //      "delta": [
+    //        0,
+    //        0,
+    //        0
+    //      ],
+    //      // 速度，默认为0，必须至少为 0
+    //      "speed": 2,
+    //      // 粒子存在时间，单位 tick，默认为 20 tick
+    //      "life_time": 20,
+    //      // 粒子数量，当子弹速度过快时，可以增大此数量，能够填满子弹路径的空隙
+    //      "count": 20
+    //    }
+  },
+  "sounds": {
+    "shoot": "rsws:sks/noac",
+    "shoot_3p": "rsws:sks/noac",
+    "silence": "rsws:sks/noac",
+    "silence_3p": "rsws:sks/noac",
+    "dry_fire": "rsws:dry_fire",
+    "fire_select": "rsws:fire_select",
+    "head_hit": "rsws:head_hit",
+    "flesh_hit": "rsws:flesh_hit",
+    "kill": "rsws:kill",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "text_show": {
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "ammo_count_text_show_pos": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 1.0,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#79daff",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  },
+  "offhand_show": {
+    "pos": [0, 19, 4],
+    "rotate": [0, 180, 45],
+    "scale": [1.1, 1.1, 0.75]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [0, 19, 3],
+      "rotate": [-180, 0, 120],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

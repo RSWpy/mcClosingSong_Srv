@@ -1,0 +1,7 @@
+{
+  "name": "rsws.attachment.mpxm.name",
+  "display": "rsws:mpxm_display",
+  "data": "rsws:mpxm_data",
+  "type": "muzzle",
+  "sort": 4
+}

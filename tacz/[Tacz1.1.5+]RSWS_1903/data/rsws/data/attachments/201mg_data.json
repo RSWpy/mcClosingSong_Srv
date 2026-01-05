@@ -1,0 +1,7 @@
+{
+  "weight": 0.5,
+  "explosion": {
+    "explode": false
+  },
+  "extended_mag_level": 1
+}

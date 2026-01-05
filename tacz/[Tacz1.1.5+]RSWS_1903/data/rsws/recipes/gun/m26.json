@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 26
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 94
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "rsws:m26"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

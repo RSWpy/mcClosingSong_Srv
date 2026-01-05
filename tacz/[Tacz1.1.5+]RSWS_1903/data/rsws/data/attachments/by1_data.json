@@ -1,0 +1,28 @@
+{
+  "weight": -0.5,
+  "explosion": {
+    "explode": false
+  },
+  "ads": {
+    "addend": -0.05
+  },
+  "armor_ignore": {
+    "multiplier": 1.05
+  },
+  "pierce": {
+    "multiplier": 2.0
+  },
+  "rpm": {
+    "multiplier":1.05
+  },
+  "head_shot":{
+    "multiplier": 1.05
+  },
+  "recoil": {
+    "pitch": {
+      "multiplier": 0.9,
+    "yaw": {
+      "multiplier": 0.9
+    },
+  "extended_mag_level": 0
+}

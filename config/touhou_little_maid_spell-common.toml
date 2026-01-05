@@ -1,0 +1,21 @@
+#最大法术攻击范围 (默认: 24.0)
+#Maximum spell attack range
+#Range: 8.0 ~ 64.0
+maxSpellRange = 30.0
+#近战攻击范围 (默认: 2.5)
+#Melee attack range
+#Range: 1.0 ~ 5.0
+meleeRange = 2.5
+#女仆伤害倍率 (默认: 1.0，仅在法术战斗任务下生效)
+#Maid damage multiplier(default:1.0,only effective on spellCombatTask)
+#Range: 0.0 ~ 50.0
+maidDamageMultiplier = 1.0
+#远程攻击范围 (默认: 8.5)
+#Far attack range
+#Range: 1.0 ~ 20.0
+farRange = 8.5
+#女仆法术冷却倍率 (默认: 1.0，仅在法术战斗任务下生效)
+#Maid cooldown multiplier(default:1.0,only effective on spellCombatTask)
+#Range: 0.0 ~ 50.0
+maidCooldownMultiplier = 1.0
+

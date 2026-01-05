@@ -1,0 +1,16 @@
+{
+  "weight": 0.5,
+  "explosion": {
+    "explode": false
+  },
+  "armor_ignore": {
+    "multiplier": 1.3
+  },
+  "damage": {
+    "multiplier": 1.2
+  },
+  "pierce": {
+    "multiplier": 3.0
+  },
+  "extended_mag_level": 0
+}
